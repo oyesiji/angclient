@@ -12,6 +12,7 @@ import { MycomponentComponent } from './mycomponent/mycomponent.component';
   imports: [
     BrowserModule
   ],
+  exports:[MycomponentComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
